@@ -1,0 +1,49 @@
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    height: 47px;
+}
+
+.nav-bar > .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1264px;
+    padding: 8px 16px;
+}
+
+.nav-bar > .nav-wrapper > .logo img {
+    width: 128px;
+}
+
+.nav-bar > .nav-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 480px;
+}
+
+.nav-bar > .nav-wrapper > .links-wrapper > .nav-link a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #31343c;
+    font-weight: 500;
+}
+
+.nav-bar > .nav-wrapper > .sign-in {
+    display: flex;
+}
+
+.nav-bar > .nav-wrapper > .sign-in a{
+    text-decoration: none;
+    color: #3d5aff;
+}
+
+.nav-bar > .nav-wrapper > .sign-in > .register a {
+    padding: 10px 32px;
+    margin-left: 18px;
+    border: 1px solid #3d5aff;
+    border-radius: 3px;
+}
